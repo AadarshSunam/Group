@@ -74,6 +74,10 @@
                 <p>
                     The Smart Parking System primarily utilizes IR sensors to detect the presence of vehicles in parking slots. This
                     information is then displayed on the 16x2 LCD with I2C, allowing users to quickly identify available parking spaces.
+			The dashboard shows if the parking slots are occupied with the help of the IR sensors present in the respective slots.
+		    When a vehicle enters the parking station the IR sensor at the gate detects it's presence and the barrier is lifted with
+		    the help of servo motor if their are available slots in the station, else the user is notified that all the spaces are 
+		    in use,through the dashboard.
                 </p>
             </section>
         </div>
