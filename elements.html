@@ -6,166 +6,21 @@
 -->
 <html>
 <head>
-    <title>Smart Parking System</title>
+    <title>Features</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <style>
-        /* Add custom styles here */
-        body {
-            background-color: #f2f2f2;
-            font-family: Arial, sans-serif;
-        }
-
-        header {
-            background-color: #333;
-            padding: 20px 0;
-        }
-
-        header .logo {
-            font-size: 28px;
-            font-weight: bold;
-            color: #fff;
-            text-decoration: none;
-        }
-
-        nav ul.links {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-        }
-
-        nav ul.links li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul.links li a {
-            text-decoration: none;
-            color: #333;
-        }
-
-        nav ul.links li.active a {
-            font-weight: bold;
-            color: #0078d4;
-        }
-
-        .post {
-            background-color: #fff;
-            padding: 40px;
-            margin: 20px 0;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .post h1 {
-            font-size: 36px;
-            color: #333;
-        }
-
-        .post h2 {
-            font-size: 24px;
-            color: #333;
-        }
-
-        .post p {
-            font-size: 18px;
-            color: #555;
-            line-height: 1.5;
-        }
-
-        .image {
-            display: block;
-            max-width: 100%;
-            height: auto;
-            margin: 20px 0;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 40px 0;
-        }
-
-        footer .fields {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        footer .field {
-            flex: 1;
-            margin-right: 20px;
-        }
-
-        footer .field label {
-            font-weight: bold;
-            color: #fff;
-        }
-
-        footer input[type="text"],
-        footer textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: none;
-            border-radius: 5px;
-        }
-
-        footer input[type="submit"] {
-            background-color: #0078d4;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        footer input[type="submit"]:hover {
-            background-color: #005a9e;
-        }
-
-        .contact section {
-            text-align: center;
-        }
-
-        .contact h3 {
-            font-size: 20px;
-            margin-bottom: 10px;
-            color: #fff;
-        }
-
-        .contact p {
-            font-size: 16px;
-            color: #ccc;
-        }
-
-        .icons {
-            list-style: none;
-            padding: 0;
-        }
-
-        .icons li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        .icons a {
-            text-decoration: none;
-            color: #fff;
-            font-size: 24px;
-        }
-    </style>
 </head>
 <body class="is-preload">
     <div id="wrapper">
         <header id="header">
-            <a href="index.html" class="logo">Smart Parking System</a>
+            <a href="index.html" class="logo">About the Smart Parking System</a>
         </header>
         <nav id="nav">
             <ul class="links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="generic.html">About</a></li>
+                <li><a href="index.html">Home page</a></li>
+                <li><a href="generic.html">About us</a></li>
                 <li class="active"><a href="elements.html">Features</a></li>
             </ul>
             <ul class="icons">
@@ -178,51 +33,51 @@
         <div id="main">
             <section class="post">
                 <header class="major">
-                    <h1>Hardware Components Description</h1>
+                    <h1>Hardware Components<br />Description</h1>
                 </header>
                 <h2>Arduino Mega 2560</h2>
                 <p>
                     The Arduino Mega 2560 is a microcontroller board based on the ATmega2560. It's the heart of our Smart Parking System,
                     responsible for controlling various components and processing data.
                 </p>
-                <span class="image fit"><img src="images/arduino-mega-2560.png" alt="Arduino Mega 2560" /></span>
+                <span class="image fit"><img src="images/arduino mega 2560.png" alt="Arduino Mega 2560" style="width: 200px; height: 150px;" /></span>
 
                 <h2>IR Sensors</h2>
                 <p>
                     IR (Infrared) sensors are used to detect the presence of vehicles in parking slots. They emit and receive infrared
                     signals, allowing us to determine whether a parking slot is occupied or vacant.
                 </p>
-                <span class="image fit"><img src="images/ir-sensor.png" alt="IR Sensors" /></span>
+                <span class="image fit"><img src="images/ir sensor.png" alt="IR Sensors" style="width: 200px; height: 150px;" /></span>
 
                 <h2>Servo Motor</h2>
                 <p>
                     A servo motor is used to control the movement of barriers or gates at the entrance and exit of the parking area.
                     It ensures secure access control.
                 </p>
-                <span class="image fit"><img src="images/servo-motor.png" alt="Servo Motor" /></span>
+                <span class="image fit"><img src="images/servo motor.png" alt="Servo Motor" style="width: 200px; height: 150px;" /></span>
 
                 <h2>16x2 LCD with I2C</h2>
                 <p>
                     The 16x2 LCD display with I2C interface is used to provide real-time information to users. It displays parking
                     slot occupancy status and other relevant information.
                 </p>
-                <span class="image fit"><img src="images/lcd-i2c.png" alt="16x2 LCD with I2C" /></span>
+                <span class="image fit"><img src="images/lcd with i2c.png" alt="16x2 LCD with I2C" style="width: 200px; height: 150px;" /></span>
 
                 <h2>Jumper Wires</h2>
                 <p>
                     Jumper wires are essential for making electrical connections between various components of the Smart Parking System.
                     They ensure reliable and efficient communication.
                 </p>
-                <span class="image fit"><img src="images/jumper-wire.jpg" alt="Jumper Wires" /></span>
+                <span class="image fit"><img src="images/jumper wire.jpg" alt="Jumper Wires" style="width: 200px; height: 150px;" /></span>
 
                 <h2>Features</h2>
                 <p>
                     The Smart Parking System primarily utilizes IR sensors to detect the presence of vehicles in parking slots. This
                     information is then displayed on the 16x2 LCD with I2C, allowing users to quickly identify available parking spaces.
-                    The dashboard shows if the parking slots are occupied with the help of the IR sensors present in the respective slots.
-                    When a vehicle enters the parking station, the IR sensor at the gate detects its presence, and the barrier is lifted
-                    with the help of a servo motor if there are available slots in the station. Otherwise, the user is notified that all
-                    the spaces are in use through the dashboard.
+			The dashboard shows if the parking slots are occupied with the help of the IR sensors present in the respective slots.
+		    When a vehicle enters the parking station the IR sensor at the gate detects it's presence and the barrier is lifted with
+		    the help of servo motor if their are available slots in the station, else the user is notified that all the spaces are 
+		    in use,through the dashboard.
                 </p>
             </section>
         </div>
@@ -251,7 +106,7 @@
             <section class="split contact">
                 <section class="alt">
                     <h3>Address</h3>
-                    <p>Khumaltar, Lalitpur<br />Bagmati, Nepal</p>
+                    <p>Khumaltar,lalitpur<br />Bagmati, Nepal</p>
                 </section>
                 <section>
                     <h3>Phone</h3>
@@ -273,7 +128,7 @@
             </section>
         </footer>
         <div id="copyright">
-            <ul><li>&copy; 2023 Smart Parking System</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+            <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
@@ -285,4 +140,3 @@
     <script src="assets/js/main.js"></script>
 </body>
 </html>
-
