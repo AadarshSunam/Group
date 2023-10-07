@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 <!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+
 <head>
     <title>Features</title>
     <meta charset="utf-8" />
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
+
 <body class="is-preload">
     <div id="wrapper">
         <header id="header">
@@ -40,44 +42,61 @@
                     The Arduino Mega 2560 is a microcontroller board based on the ATmega2560. It's the heart of our Smart Parking System,
                     responsible for controlling various components and processing data.
                 </p>
-                <span class="image fit"><img src="images/arduino mega 2560.png" alt="Arduino Mega 2560" style="width: 200px; height: 150px;" /></span>
+                <span class="image fit"><img src="images/arduino mega 2560.png" alt="Arduino Mega 2560"
+                        style="width: 200px; height: 150px;" /></span>
 
                 <h2>IR Sensors</h2>
                 <p>
                     IR (Infrared) sensors are used to detect the presence of vehicles in parking slots. They emit and receive infrared
                     signals, allowing us to determine whether a parking slot is occupied or vacant.
                 </p>
-                <span class="image fit"><img src="images/ir sensor.png" alt="IR Sensors" style="width: 200px; height: 150px;" /></span>
+                <span class="image fit"><img src="images/ir sensor.png" alt="IR Sensors"
+                        style="width: 200px; height: 150px;" /></span>
 
                 <h2>Servo Motor</h2>
                 <p>
                     A servo motor is used to control the movement of barriers or gates at the entrance and exit of the parking area.
                     It ensures secure access control.
                 </p>
-                <span class="image fit"><img src="images/servo motor.png" alt="Servo Motor" style="width: 200px; height: 150px;" /></span>
+                <span class="image fit"><img src="images/servo motor.png" alt="Servo Motor"
+                        style="width: 200px; height: 150px;" /></span>
 
                 <h2>16x2 LCD with I2C</h2>
                 <p>
-                    The 16x2 LCD display with I2C interface is used to provide real-time information to users. It displays parking
+                    The 20x4 LCD display with I2C interface is used to provide real-time information to users. It displays parking
                     slot occupancy status and other relevant information.
                 </p>
-                <span class="image fit"><img src="images/lcd with i2c.png" alt="16x2 LCD with I2C" style="width: 200px; height: 150px;" /></span>
+                <span class="image fit"><img src="images/lcd with i2c.png" alt="16x2 LCD with I2C"
+                        style="width: 200px; height: 150px;" /></span>
 
                 <h2>Jumper Wires</h2>
                 <p>
                     Jumper wires are essential for making electrical connections between various components of the Smart Parking System.
                     They ensure reliable and efficient communication.
                 </p>
-                <span class="image fit"><img src="images/jumper wire.jpg" alt="Jumper Wires" style="width: 200px; height: 150px;" /></span>
+                <span class="image fit"><img src="images/jumper wire.jpg" alt="Jumper Wires"
+                        style="width: 200px; height: 150px;" /></span>
+
+                <!-- Space for Circuit Diagram and Description -->
+                <h2>Circuit Diagram</h2>
+                <span class="image fit"><img src="images/circuit diagram.jpg" alt="Circuit Diagram"
+                        style="width: 400px; height: 300px;" /></span>
+
+                <h2>Circuit Diagram Description</h2>
+                <p>
+                    Above is the circuit diagram of this parking system. The circuit diagram was used in a simulation in wokwi simulator and it showed positive results
+			At parkinheimer we test our projects in the software before they are made as a real world prototype. This ensures the safety of our product as well
+			as our product integrity.
+                </p>
 
                 <h2>Features</h2>
                 <p>
                     The Smart Parking System primarily utilizes IR sensors to detect the presence of vehicles in parking slots. This
                     information is then displayed on the 16x2 LCD with I2C, allowing users to quickly identify available parking spaces.
-			The dashboard shows if the parking slots are occupied with the help of the IR sensors present in the respective slots.
-		    When a vehicle enters the parking station the IR sensor at the gate detects it's presence and the barrier is lifted with
-		    the help of servo motor if their are available slots in the station, else the user is notified that all the spaces are 
-		    in use,through the dashboard.
+                    The dashboard shows if the parking slots are occupied with the help of the IR sensors present in the respective slots.
+                    When a vehicle enters the parking station, the IR sensor at the gate detects its presence and the barrier is lifted with
+                    the help of the servo motor if there are available slots in the station. Otherwise, the user is notified that all the spaces are
+                    in use, through the dashboard.
                 </p>
             </section>
         </div>
@@ -106,7 +125,7 @@
             <section class="split contact">
                 <section class="alt">
                     <h3>Address</h3>
-                    <p>Khumaltar,lalitpur<br />Bagmati, Nepal</p>
+                    <p>Khumaltar, Lalitpur<br />Bagmati, Nepal</p>
                 </section>
                 <section>
                     <h3>Phone</h3>
@@ -116,20 +135,8 @@
                     <h3>Email</h3>
                     <p><a href="#">abc@aitm.edu.np</a></p>
                 </section>
-                <section>
-                    <h3>Social</h3>
-                    <ul class="icons alt">
-                        <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                    </ul>
-                </section>
             </section>
         </footer>
-        <div id="copyright">
-            <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-        </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
@@ -139,4 +146,5 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
